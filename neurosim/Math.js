@@ -14,4 +14,8 @@ function multiplyMatrices(m1, m2) {
     return result;
 }
 
-export {multiplyMatrices};
+function random() {
+    return (Math.random()*2)-1;
+}
+
+export { multiplyMatrices, random };
